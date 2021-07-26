@@ -184,7 +184,6 @@ h2{
   &-img {
     float: left;
     margin: 100px 100px 0 0;
-    transition-duration: .7s;
 
     @include media{
       float: none;
@@ -203,6 +202,7 @@ h2{
 
       &:hover{
         opacity: 1.0;
+        transition-duration: 0.7s;
       }
     }
 

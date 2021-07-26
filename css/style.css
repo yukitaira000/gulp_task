@@ -177,7 +177,6 @@ h2 {
 .skills-img {
   float: left;
   margin: 100px 100px 0 0;
-  transition-duration: .7s;
 }
 
 @media screen and (max-width: 1199px) {
@@ -200,6 +199,7 @@ h2 {
 
 .skills-img img:hover {
   opacity: 1.0;
+  transition-duration: 0.7s;
 }
 
 .skills-img:nth-child(3n) {
